@@ -1,0 +1,44 @@
+
+
+
+:root{
+    --navbar: #213041;
+    --blanco: #f3f4f6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--navbar);
+}
+
+.navbar,
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}    
+
+.logo img {
+    height: 60px;
+    width: auto;
+    
+}
+
+.nav-list li a{
+    color: var(--blanco);
+    text-decoration: none;
+   
+}
