@@ -109,7 +109,7 @@
     position: relative;
 }
 
-.banner-text span{
+.banner-text-a span{
     font-family: Raleway;
     font-weight: 100;
     letter-spacing: 2px;
@@ -117,13 +117,16 @@
 
 }
 
-.banner-text{
+.banner-text,
+.banner-text-a{
     width: 100%;
+    max-width: 589px;
+    max-height: 1047px;
     display: flex;
     justify-content: center;
     position: absolute;
-    align-items: flex-start;
-    font-size: 40px;
+    align-items: center;
+    font-size: 30px;
     
     
 }
@@ -132,3 +135,4 @@
     text-decoration: none;
     color: var(--blanco);
 }
+
