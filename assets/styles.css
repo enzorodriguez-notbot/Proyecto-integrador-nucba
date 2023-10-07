@@ -21,6 +21,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: var(--navbar);
+    width: 100%;
 }
 
 .navbar,
@@ -50,7 +51,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: 50% 50%;
-   
+    
 }
 
 .description-img img{
@@ -60,4 +61,22 @@
 .description-info p {
     font-size: 16px;
     display: flex;
+}
+
+.bannerss7{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerss7 img {
+    width: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: var(--blanco);
+    transform: translate(-50%, -50%);
 }
