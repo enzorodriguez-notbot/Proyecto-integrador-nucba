@@ -5,7 +5,7 @@
     --navbar: #213041;
     --blanco: #f3f4f6;
     --amarillo: #f4a746;
-
+    --border: #000113;
     font-family: montserrat;
 }
 
@@ -21,8 +21,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--navbar);
+    
     width: 100%;
+    background: rgb(33,48,65);
+    background: linear-gradient(183deg, rgba(33,48,65,1) 0%, rgba(0,0,10,1) 25%);
+    
 }
 
 .navbar,
