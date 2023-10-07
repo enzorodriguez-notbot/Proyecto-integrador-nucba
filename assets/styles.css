@@ -6,6 +6,7 @@
     --blanco: #f3f4f6;
     --amarillo: #f4a746;
     --border: #000113;
+    --nebulalogo: #6fbce6;
     font-family: montserrat;
 }
 
@@ -87,12 +88,17 @@
     align-items: flex-end;
     position: absolute;
     color: var(--blanco);
+    
+    
+    text-shadow: #6fbce6 0 0 20px;
+    
 }
 
 .banner-text img{
     width: 45px;
     margin-top: 30px;
     position: relative;
+    
 }
 
 
@@ -107,7 +113,7 @@
     font-family: Raleway;
     font-weight: 100;
     letter-spacing: 2px;
-
+    
 
 }
 
@@ -118,4 +124,11 @@
     position: absolute;
     align-items: flex-start;
     font-size: 40px;
+    
+    
+}
+
+.banner-text a{
+    text-decoration: none;
+    color: var(--blanco);
 }
