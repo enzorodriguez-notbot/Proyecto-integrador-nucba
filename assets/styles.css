@@ -150,7 +150,8 @@
 }
 
 .description-info h4,
-.sam-info h5{
+.sam-info h5,
+.ben-info h5{
     font-size: 50px;
     bottom: 30px;
     color: var(--blanco);
@@ -158,7 +159,8 @@
     margin-bottom: 24px;
 }
 
-.sam{
+.sam,
+.ben{
     background-color: var(--background);
     display: grid;
     grid-template-columns: 50% 50%;
@@ -186,7 +188,8 @@
     text-align: end;
 
 }
-.sam-info h5{
+.sam-info h5,s
+.ben-info h5{
     text-align: center;
 }
 
@@ -194,3 +197,15 @@
     padding-right: 10px;
 }
 
+#presentadores{
+    background-color: var(--background);
+}
+
+
+
+.ben-img img{
+    width: 400px;
+    height: 400px;
+    
+
+}
