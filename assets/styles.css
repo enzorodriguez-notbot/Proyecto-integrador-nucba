@@ -3,6 +3,7 @@
 
 :root{
     --navbar: #213041;
+    --background: #0c1c24;
     --blanco: #f3f4f6;
     --amarillo: #f4a746;
     --border: #000113;
@@ -56,7 +57,8 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: 50% 50%;
-    
+    background-color: var(--background);
+    grid-gap: 10px;
 }
 
 .description-img img{
@@ -64,10 +66,7 @@
     
 }
 
-.description-info p {
-    font-size: 16px;
-    display: flex;
-}
+
 
 .bannerss7{
     position: relative;
@@ -133,11 +132,27 @@
     color: var(--blanco);
 }
 
+.description-info{
+    grid-column: 2/2;
+    height: 460px;
+    
+}
+
 .description-info p{
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     width: 80%;
     padding-left: 5px;
+    color: var(--blanco);
+    line-height: 140%;
     
-   
 }
+
+.description-info h4{
+    font-size: 50px;
+    bottom: 30px;
+    color: var(--blanco);
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
