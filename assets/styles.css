@@ -140,11 +140,12 @@
 
 .description-info p,
 .sam-info p,
-.ben-info p{
+.ben-info p,
+.adam-info p{
     font-size: 25px;
     letter-spacing: 2px;
+    padding: 10px;
     
-    padding-left: 5px;
     color: var(--blanco);
     line-height: 140%;
     
@@ -152,7 +153,8 @@
 
 .description-info h4,
 .sam-info h5,
-.ben-info h5{
+.ben-info h5,
+.adam-info h5{
     font-size: 50px;
     bottom: 30px;
     color: var(--blanco);
@@ -161,7 +163,8 @@
 }
 
 .sam,
-.ben{
+.ben,
+.adam{
     
     display: grid;
     grid-template-columns: 50% 50%;
@@ -182,15 +185,17 @@
 
 }
 
-.sam-info{
+.sam-info,
+.adam-info{
     grid-column: 1/2;
     color: var(--blanco);
     grid-row: 1;
     text-align: end;
 
 }
-.sam-info h5,s
-.ben-info h5{
+.sam-info h5,
+.ben-info h5,
+.adam-info h5{
     text-align: center;
 }
 
@@ -204,7 +209,9 @@
 
 
 
-.ben-img img{
+.ben-img img,
+.adam-img img,
+.sam-img img{
     width: 400px;
     height: 400px;
 }
@@ -212,5 +219,16 @@
 .ben-img{
     display: flex;
     justify-content: end;
+    
    
+}
+
+.adam-img{
+    display: flex;
+    justify-content: start;
+    grid-column: 2/2;
+}
+
+.adam{
+    padding-bottom: 50px;
 }
