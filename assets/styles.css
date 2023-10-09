@@ -8,6 +8,7 @@
     --amarillo: #f4a746;
     --border: #000113;
     --nebulalogo: #6fbce6;
+    --negro: #000000;
     font-family: montserrat;
 }
 
@@ -261,23 +262,18 @@
 
 .nav-list a{
     
-        box-shadow: inset 0 0 0 0 #54b3d6;
-        color: var(--blanco);
-        padding: 0 .25rem;
-        margin: 0 -.25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-      }
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: var(--blanco);
+    padding: 10px;
+    margin: 10px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 15px;
+}
 .nav-list a:hover {
-        color: var(--blanco);
-        box-shadow: inset 200px 0 0 0 #54b3d6;;
-      }
+    color: var(--negro);
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    font-weight: bold;
+}
       
       
-   /*   a {
-        color: #54b3d6;
-        font-family: 'Poppins', sans-serif;
-        font-size: 27px;
-        font-weight: 700;
-        line-height: 1.5;
-        text-decoration: none;
-      }*/
+   
