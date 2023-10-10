@@ -299,12 +299,16 @@
   
     padding-top: 26px;
     background-color: var(--background);
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 80%;
+    height: auto;
+    
 }
 
 .carousel-open:checked + .carousel-item {
