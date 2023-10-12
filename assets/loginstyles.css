@@ -91,5 +91,14 @@ input::placeholder{
 #regresar{
     text-decoration: none;
     color: var(--blanco);
+    box-shadow: inset 0 0 0 0 var(--azulnebula);
+    margin: 0 5px;
+    padding: 0 5px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     
+}
+
+#regresar:hover{
+    box-shadow: inset 230px 0 0 0 var(--azulnebula);
+    color: white;
 }
