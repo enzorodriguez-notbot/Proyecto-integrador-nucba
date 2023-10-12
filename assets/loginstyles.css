@@ -1,3 +1,13 @@
+
+
+:root{
+    --background: rgba(0, 0, 0, 0.709);
+    --blanco: #fff;
+    --gris: rgb(182, 171, 163);
+    --azulnebula: rgb(111, 188, 230);
+    --negro:#000000;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -25,8 +35,8 @@ body{
     height:100%;
     width:100%;
     font-family:'Inter';
-    color:#fff;
-    background:rgba(0, 0, 0, 0.709);
+    color: var(--blanco);
+    background: var(--background);
     padding:30px 0px;
     border-radius: 7px;
 }
@@ -39,4 +49,41 @@ body{
 
 .datos input{
     display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding:15px;
+    background: var(--blanco);
+    color:var(--negro);
+    border-radius: 7px;
+    border:0;
+}
+
+input::placeholder{
+    color: var(--gris);
+}
+
+.registro a {
+    text-decoration: none;
+    color: var(--blanco);
+    border-radius: 128px;
+    background-color: rgb(111, 188, 230);
+    padding: 10px;
+}
+
+.datos button{
+    background:#2d2f36;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+    border-radius: 7px;
+}
+
+.datos p {
+    font-size:17px;
+    text-align:center;
 }
