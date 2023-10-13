@@ -475,8 +475,16 @@
 .contacto-listas{
     display: grid;
     grid-template-columns: 40% 40%;
-   
+   padding-top: 10px;
+
 }
+
+.contacto-direccion p:first-child,
+.contacto-telefono p:first-child{
+    color: var(--gris);
+}
+
+
 
 /*footer*/
 
