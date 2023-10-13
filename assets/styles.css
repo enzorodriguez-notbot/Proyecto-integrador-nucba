@@ -486,11 +486,14 @@
 
 .formulario{
     display: block;
+    padding-top: 10px;
     
 }
 
 
-.formulario-nombre input{
+.formulario-nombre input,
+.formulario-email input,
+.formulario-textarea textarea{
     display: block;
     width: 80%;
     padding:15px;
@@ -498,7 +501,34 @@
     color:var(--negro);
     border: none;
     border-bottom: 1px solid var(--negro);
+    
 }
+
+.formulario-nombre label,
+.formulario-email label,
+.formulario-textarea label{
+    color: var(--gris);
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.formulario-enviar{
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    padding: 20px;
+}
+
+.formulario-enviar input{
+    font-size: large;
+    border:1px solid var(--negro);
+    color: var(--negro);
+    width: 40%;
+    cursor:pointer;
+   padding: 20px;
+}
+
 
 /*footer*/
 
