@@ -484,7 +484,21 @@
     color: var(--gris);
 }
 
+.formulario{
+    display: block;
+    
+}
 
+
+.formulario-nombre input{
+    display: block;
+    width: 80%;
+    padding:15px;
+    background: var(--blanco);
+    color:var(--negro);
+    border: none;
+    border-bottom: 1px solid var(--negro);
+}
 
 /*footer*/
 
