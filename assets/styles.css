@@ -9,6 +9,7 @@
     --border: #000113;
     --nebulalogo: #6fbce6;
     --negro: #000000;
+    --gris: #9b9b9b;
     font-family: montserrat;
 }
 
@@ -426,9 +427,56 @@
 }
 
 
-/*newsletter*/
+/*contactanos prro*/
 
+.contacto{
+    width: 100%;
+    display: flex;
+    background-color: var(--background);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
 
+.contacto-contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: var(--blanco);
+}
+
+.contacto-img img{
+    object-fit: cover;
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+}
+
+.contacto-info{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+.contacto-titulo{
+    display: block;
+    
+}
+
+.contacto-titulo h4{
+    font-size: x-large;
+}
+
+.contacto-titulo p{
+    color: var(--gris);
+    padding-top: 10px;
+}
+
+.contacto-listas{
+    display: grid;
+    grid-template-columns: 40% 40%;
+   
+}
 
 /*footer*/
 
