@@ -536,6 +536,66 @@
 }
 /*footer*/
 
+.footer-container{
+	max-width: 1170px;
+	margin:auto;
+}
 
-      
-   
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+ .footer-col h4{
+     font-size: 18px;
+     color: #ffffff;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     position: relative;
+ }
+
+ .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col .redes-sociales a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	
+	margin:0 10px 10px 0;
+	text-align: center;
+	
+	
+	transition: all 0.5s ease;
+    gap: 10px;
+    
+}
+.footer-col .redes-sociales a:hover{
+	color: #24262b;
+	
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.footer-col a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
