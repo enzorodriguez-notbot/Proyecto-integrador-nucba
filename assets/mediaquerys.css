@@ -1,0 +1,29 @@
+@media screen and (max-width:1110px){
+    .description-info p,
+    .sam-info p,
+    .ben-info p,
+    .adam-info p{
+        font-size: 1.25em;
+    }
+.description-info h4,
+.sam-info h5,
+.ben-info h5,
+.adam-info h5{
+    font-size: 2.5em;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.description-info h4{
+    margin-top: 10%;
+}
+
+}
+
+
+@media screen and (max-width:920px) {
+    .contacto-contenedor{
+        grid-template-columns: 100%;
+
+    }
+    
+}
