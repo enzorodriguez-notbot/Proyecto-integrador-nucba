@@ -124,7 +124,7 @@
     justify-content: center;
     position: absolute;
     align-items: flex-start;
-    font-size: 40px;
+    font-size: 2.5em;
     
     
 }
@@ -145,7 +145,7 @@
 .sam-info p,
 .ben-info p,
 .adam-info p{
-    font-size: 25px;
+    font-size: 1.564em;
     letter-spacing: 2px;
     padding: 10px;
     
@@ -158,7 +158,7 @@
 .sam-info h5,
 .ben-info h5,
 .adam-info h5{
-    font-size: 50px;
+    font-size: 3.125em;
     bottom: 30px;
     color: var(--blanco);
     font-weight: 800;
