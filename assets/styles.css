@@ -437,6 +437,7 @@
     padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .contacto-contenedor{
@@ -519,15 +520,6 @@
     justify-content: end;
     width: 80%;
     padding: 20px;
-    color: var(--blanco);
-    transition: color 0.5s;
-    cursor: grab;
-
-}
-.formulario-enviar input:hover{
-    color: var(--gris);
-    cursor: grab;
-
 }
 
 .formulario-enviar input{
