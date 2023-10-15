@@ -1,4 +1,4 @@
-@media screen and (max-width:1110px){
+@media (max-width:1110px){
     .description-info p,
     .sam-info p,
     .ben-info p,
@@ -20,10 +20,40 @@
 }
 
 
-@media screen and (max-width:920px) {
+@media (max-width:920px) {
     .contacto-contenedor{
         grid-template-columns: 100%;
 
     }
-    
+    .description-info h4,
+.sam-info h5,
+.ben-info h5,
+.adam-info h5{
+    font-size: 1.875em;
+    top: 10px;
+    margin-bottom: 10px;
+
+}
+.description-info p,
+    .sam-info p,
+    .ben-info p,
+    .adam-info p{
+        font-size: 1em;
+    }
+}
+
+@media  (max-width:815px) {
+    #description{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(100%);
+    }
+
+    #presentadores{
+        grid-template-columns: 100%;
+    }
+    .sam,
+    .ben,
+    .adam{
+        grid-template-columns: 100%;
+    }
 }
