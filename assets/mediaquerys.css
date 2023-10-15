@@ -83,4 +83,76 @@
         display: inline-flex;
         grid-row: 2/2;
     }
+    .formulario-enviar input{
+        padding: 10px;
+        width: auto;
+    }
+    .textarea{
+        height: 20px;
+    }
+    .contacto-listas{
+        gap: 15px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    /* navbar burguer*/
+
+    .nav-list {
+        position: absolute;
+        top: 93px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #0B1D26;
+        
+        border-top: 0;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+      }
+    
+      .nav-list a {
+        font-size: 18px;
+        color: white;
+      }
+    
+      .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+      }
+      
+      
+      
+      #menu-toggle:checked + .nav-list {
+        display: flex;
+      }
+    .sam-img img,
+    .ben-img img,
+    .adam-img img{
+        width: 100%;
+        height: 100%;
+     
+    }
+}
+
+@media (max-width:500px){
+    .anuncio-importante a{
+        font-size: 15px;
+    }
+}
+@media (max-width:360px){
+    .anuncio-importante a {
+        font-size: 12px;
+    }
+    .separador-img{
+        height: 120px;
+    }
 }

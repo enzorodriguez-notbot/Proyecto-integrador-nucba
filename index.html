@@ -6,6 +6,7 @@
     <title>Jet Lag The Game</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/mediaquerys.css">
+    <script src="https://kit.fontawesome.com/9577b85c38.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -25,6 +26,11 @@
 
 
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars fa-xl" style="color: #fafcff;"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            
             <ul class="nav-list">
                 <li><a href="#">Conductores</a></li> 
                 <li><a href="#">Temporadas</a></li>
@@ -253,7 +259,7 @@
                         </div>
                         <div class="formulario-textarea">
                             <label for="Mensaje">Mensaje:</label>
-                            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui"></textarea>
+                            <textarea name="Mensaje" class="textarea" cols="30" rows="10" placeholder="Escribe tu mensaje aqui"></textarea>
                         </div>
                         <div class="formulario-enviar">
                             <input type="submit" placeholder="enviar">

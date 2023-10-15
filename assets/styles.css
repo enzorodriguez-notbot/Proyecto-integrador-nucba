@@ -529,7 +529,10 @@
     padding: 20px;
 }
 
-
+#menu-toggle,
+.menu-label{
+    display: none;
+}
 /*footer*/
 
 
