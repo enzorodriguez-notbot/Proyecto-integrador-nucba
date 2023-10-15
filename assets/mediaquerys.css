@@ -150,12 +150,13 @@
     .carousel-item p{
         font-size: 16px;
     }
+    .separador-img{
+        height: 100px;
+    }
 }
 @media (max-width:360px){
     .anuncio-importante a {
         font-size: 12px;
     }
-    .separador-img{
-        height: 120px;
-    }
+    
 }
