@@ -1,8 +1,12 @@
 @media (max-width: 450px){
     .datos input{
-        width: 220px;
+        width: 190px;
     }
     .datos button{
         width: 220px;
+    }
+    .contenedor{
+        width: 292px;
+        left: calc(50vw - 144px);
     }
 }
