@@ -530,6 +530,10 @@
     cursor:pointer;
     padding: 20px;
 }
+.formulario-enviar input:hover{
+    color: var(--blanco);
+    background-color: var(--background);
+}
 
 #menu-toggle,
 .menu-label{
