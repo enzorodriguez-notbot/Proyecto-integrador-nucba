@@ -1,0 +1,8 @@
+@media (max-width: 450px){
+    .datos input{
+        width: 220px;
+    }
+    .datos button{
+        width: 220px;
+    }
+}
