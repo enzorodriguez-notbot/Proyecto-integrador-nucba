@@ -45,15 +45,42 @@
 @media  (max-width:815px) {
     #description{
         grid-template-columns: 100%;
-        grid-template-rows: repeat(100%);
+        
     }
 
-    #presentadores{
-        grid-template-columns: 100%;
-    }
+    
     .sam,
     .ben,
     .adam{
         grid-template-columns: 100%;
+        grid-template-rows: max-content;
+    }
+    .sam-img,
+    .adam-img {
+        grid-column: 1;
+        justify-content: center;
+        display: inline-flex;
+    }
+    .sam-info,
+    .adam-info,
+    .ben-info {
+        
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        grid-column: 1;
+       
+
+    }
+    .description-info {
+        grid-column: 1;
+        height: fit-content;
+        justify-content: center;
+        text-align: center;
+    }
+    .ben-img{
+        justify-content: center;
+        display: inline-flex;
+        grid-row: 2/2;
     }
 }
