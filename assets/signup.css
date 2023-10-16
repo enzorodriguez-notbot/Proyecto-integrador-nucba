@@ -13,10 +13,17 @@ body{
 }
 
 .back-img{
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-   
+    width: 100%;
+    
+}
+.back-img img{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
 }
 
 
